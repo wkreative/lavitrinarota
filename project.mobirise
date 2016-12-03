@@ -1,26 +1,43 @@
 {
   "settings": {
-    "name": "La Vitrina Rota",
+    "name": "LaVitrinaRota",
     "currentPage": "index.html",
     "theme": {
-      "name": "default",
-      "title": "Mobirise",
-      "styling": {}
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#2f8383",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 8,
+    "uniqCompNum": 16,
     "versionPublish": "3.9.0",
     "mcShopcart": {
       "email": "josejimenezmorales@hotmail.com"
     },
+    "favicon": "@PROJECT_PATH@/assets/images/book-icon-icon-search-engine-6-128x128-0.png",
+    "noImageResize": "",
+    "google-analytics": "",
     "publishType": "github"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
-        "meta_descr": "",
+        "title": "La Vitrina Rota",
+        "meta_descr": "La Vitrina Rota - Silverio Pérez",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -28,43 +45,88 @@
       "components": [
         {
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".mbr-brand__name a": {
+            ".navbar-caption": {
+              "color": "#ffffff",
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#2f8383!important"
             }
           },
+          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff",
+            "bgColor": "#2c3e50",
+            "fontSize": "0.75",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
-            "collapsed": false,
             "logo": true,
             "showBrand": true,
-            "showButtons": false
+            "collapsed": true,
+            "hideButtons": false
           },
           "logo": {
             "image": {
-              "src": "images/logo.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -73,83 +135,92 @@
               "family": "icon54-v2",
               "link": "#top",
               "size": 0,
-              "color": "#ffffff",
-              "active": true,
-              "newWindow": false
+              "newWindow": false,
+              "active": true
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"#top\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LA VITRINA ROTA</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">INICIO</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-2\">HISTORIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-6\">COMPRAR</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#form1-5\">CONTÁCTO</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">LA VITRINA <br>ROTA</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">INICIO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header5-d\" aria-expanded=\"false\">HISTORIA</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form1-f\" aria-expanded=\"false\">CONTACTO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html#features7-e\">COMPRAR</a></li>"
         },
         {
-          "_inherit": "header1",
+          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_anchor": "header4-1",
+          "_name": "header11",
+          "_styles": {
+            "H1": {
+              "font-size": "72px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            "P": {
+              "font-size": "24px"
+            }
+          },
+          "_anchor": "header11-8",
           "_params": {
+            "animText1": "HISTORIA",
+            "animText2": "REALISMO",
+            "animText3": "HUMOR",
+            "typeSpeed": 60,
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/vitrina-2000x1334-67.jpg",
-            "bgColor": "#4c6972",
+            "bgImage": "@PROJECT_PATH@/assets/images/vitrina-2-2000x1000-80.jpg",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "contentAlign": "center",
             "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#222",
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
             "showArrow": true
           },
-          "title": "LA VITRINA ROTA",
+          "title": "LA VITRINA ROTA<br>",
           "text": "La historia de Puerto Rico con una mirada realista.",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-primary\" href=\"index.html#content5-2\" data-toolbar=\"-mbrBtnMove\">VER MÁS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"index.html#msg-box4-6\" data-toolbar=\"-mbrBtnMove\">COMPRAR LIBRO</a>",
-          "_styles": {
-            "H1": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header5-d\" data-toolbar=\"-mbrBtnMove\">CONOCE MÁs</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features7-e\" data-toolbar=\"-mbrBtnMove\">comprar libro</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
         },
         {
-          "_inherit": "msg-box3",
           "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center",
-              "color": "#fff",
-              "font-size": "46px"
+            ".elements-content": {
+              "padding-bottom": "140px"
             },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center",
+            ".mbr-section-subtitle": {
+              "letter-spacing": "2px",
+              "margin-bottom": "10px",
+              "font-weight": "700"
+            },
+            ".mbr-section-title, .tab-pane": {
               "color": "#fff"
             },
-            ".mbr-article": {
-              "color": "#fff"
+            ".mbr-section-title": {
+              "margin-bottom": "60px"
+            },
+            ".nav-tabs": {
+              "margin-top": "90px"
+            },
+            "P": {
+              "font-size": "20px"
             }
           },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "content5",
-          "_anchor": "content5-2",
+          "_name": "header5",
+          "_anchor": "header5-d",
           "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showTitle": true,
-            "showText": true,
-            "showButton": false,
-            "bgImageRadio": true,
+            "tabs": "5",
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/glass-101792-1920-2000x1127-7.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/glass-101792-1920-2000x1127-18.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -158,115 +229,354 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.8",
-            "overlayColor": "#28324e",
-            "showMeta": false,
-            "darkBackground": true
+            "overlayColor": "#34495e",
+            "showHeader": true,
+            "showImages": true,
+            "showTitles": false
           },
-          "title": "PUERTO RICO",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat. Nisl quisque aliquam tristique culpa donec libero, nec tristique dolor sed purus justo, pede dui ullamcorper, sed diam turpis elit est nec, augue venenatis ut. Metus ut vitae, ut id, felis vitae. Bibendum mollis, rutrum at dapibus accumsan et imperdiet bibendum, suspendisse felis nulla, tincidunt vulputate ipsum sapien wisi, vel mi mollis lectus rhoncus malesuada. Id felis vivamus tellus ante ultrices, quis ligula tempora ridiculus amet tellus. Arcu per wisi eu, faucibus a tempor placeat vestibulum, quis ac, sapien in, bibendum nonummy malesuada justo in a. Elit arcu proin proin feugiat. Dolor vestibulum vel ac viverra massa non, integer faucibus, dui neque saepe viverra vitae, nunc etiam pede, vel nulla sint aliquet. Non augue, ac nec erat duis.</p><p><br></p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+          "title": "PUERTO<br> RICO",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "puzzle",
+              "family": "et-line",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "@primaryColor",
+              "newWindow": false
+            }
+          },
+          "title1": "BOOST YOUR RANKING",
+          "text1": "Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat. Nisl quisque aliquam tristique culpa donec libero, nec tristique dolor sed purus justo, pede dui ullamcorper, sed diam turpis elit est nec, augue venenatis ut. Metus ut vitae, ut id, felis vitae. Bibendum mollis, rutrum at dapibus accumsan et imperdiet bibendum, suspendisse felis nulla, tincidunt vulputate ipsum sapien wisi, vel mi mollis lectus rhoncus malesuada. Id felis vivamus tellus ante ultrices, quis ligula tempora ridiculus amet tellus. Arcu per wisi eu, faucibus a tempor placeat vestibulum, quis ac, sapien in, bibendum nonummy malesuada justo in a. Elit arcu proin proin feugiat. Dolor vestibulum vel ac viverra massa non, integer faucibus, dui neque saepe viverra vitae, nunc etiam pede, vel nulla sint aliquet. Non augue, ac nec erat duis.",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "puzzle",
+              "family": "iconsMind",
+              "active": true,
+              "link": "",
+              "size": "70",
+              "color": "#ffffff",
+              "newWindow": false
+            }
+          },
+          "title2": "BOOTSTRAP BUILDER",
+          "text2": "Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat. Nisl quisque aliquam tristique culpa donec libero, nec tristique dolor sed purus justo, pede dui ullamcorper, sed diam turpis elit est nec, augue venenatis ut. Metus ut vitae, ut id, felis vitae. Bibendum mollis, rutrum at dapibus accumsan et imperdiet bibendum.",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "paperclip",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title3": "TRENDY WEBSITE BLOCKS",
+          "text3": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title4": "HOST ANYWHERE",
+          "text4": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title5": "IMAGE/CONTENT SLIDER",
+          "text5": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title6": "CONTACT FORMS",
+          "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "tabTitle": ""
         },
         {
-          "_inherit": "msg-box5",
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "font-size": "25px",
+              "color": "#000000",
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
+            },
+            ".mbr-section-text": {
+              "font-size": "18px",
+              "color": "#333333"
+            },
+            ".btn": {
+              "font-size": "12px"
+            },
+            ".mbr-section-title": {
+              "font-size": "60px"
+            },
+            ".mbr-section-title B": {
+              "color": "#333333"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff",
-              "text-align": "center",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
-            },
-            ".mbr-header__text SPAN": {
-              "font-family": "'Bitter', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700",
-              "font-size": "25px"
-            }
-          },
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-6",
+          "_name": "features7",
+          "_anchor": "features7-e",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/san-juan-vitrina-2000x1333-76.jpg",
-            "bgColor": "#f97352",
-            "bgColorRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showImages": true,
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
             "showButtons": true
           },
-          "media": {
+          "media1": {
             "image": {
+              "src": "@PROJECT_PATH@/assets/images/libro-vitrina-600x524-56.png",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/book-1400x1400-43.png",
               "link": "",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
             }
           },
-          "headerAlign": "center",
-          "title": "<span style=\"font-weight: normal;\">LA VITRINA ROTA</span>",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<blockquote>Una mirada a la historia de Puerto Rico desde el punto de vistas de Silverio Pérez</blockquote>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=14.99&amp;item_name=La+Vitrina+Rota&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">AÑADIR A CARRITO</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=14.99&amp;item_name=La+Vitrina+Rota+Libro&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">COMPRAR AHORA</a>"
+          "number1": "1",
+          "subtitle1": "LA VITRINA ROTA",
+          "title1": "<b>LA VITRINA ROTA</b>",
+          "caption1": "Una mirada a la historia de Puerto Rico desde el punto de vista de Silverio Pérez",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=14.99&amp;item_name=LA+VITRINA+ROTA+LIBRO&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">AñADIR CARRITO</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=14.99&amp;item_name=LA+VITRINA+ROTA+LIBRO&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">COMPRAR AHORA</a>"
         },
         {
+          "_styles": {
+            ".card-block p": {
+              "font-size": "15px"
+            },
+            ".mbr-section-title": {
+              "font-size": "30px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "24px",
+              "color": "#666666"
+            },
+            ".card-block P": {
+              "font-size": "12px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "_params": {
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "slides": [
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/fb-avatar-160x139-73.jpg",
+                    "class": "img-circle",
+                    "link": "",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "John Smith",
+                "authorBio": "FILÓSOFO",
+                "text": "<p>“Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat.”</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/fb-avatar-160x139-57.jpg",
+                    "class": "img-circle",
+                    "link": "",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Abanoub S.",
+                "authorBio": "USER",
+                "text": "<p>“Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat.”</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/fb-avatar-160x139-50.jpg",
+                    "class": "img-circle",
+                    "link": "",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Suffian A.",
+                "authorBio": "USER",
+                "text": "<p>“A Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat.”</p>"
+              },
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/fb-avatar-160x139-50.jpg",
+                    "class": "img-circle",
+                    "link": "",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Alex Higgins",
+                "authorBio": "USER",
+                "text": "<p>\"Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat.\"</p>"
+              }
+            ],
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": false,
+            "showSubtitle": true,
+            "showBullets": true,
+            "visibleSlides": "3",
+            "controlBgLeft": "@PROJECT_PATH@/assets/images/left.png",
+            "controlBgRight": "@PROJECT_PATH@/assets/images/right.png"
+          },
+          "_anchor": "testimonials2-9",
+          "title": "QUE PIENSAN LOS LECTORES DE LA VITRINA ROTA",
+          "subtitle": "QUE PIENSAN LOS LECTORES DE LA VITRINA ROTA"
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
-          "_anchor": "form1-5",
+          "_anchor": "form1-f",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "bgColor": "#ecf0f1",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true
+            "overlayColor": "#ecf0f1",
+            "showSubtitle": false,
+            "showTitle": true,
+            "showText": false
           },
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "title": "CONTÁCTANOS",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
           "form": {
             "action": "josejimenezmorales@hotmail.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Gracias por escribirnos!"
             },
             "fields": {
               "name": {
@@ -290,112 +600,40 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR&nbsp;</a>"
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>"
         },
         {
-          "items": [
-            {
-              "authorName": "ABANOUB S.",
-              "authorBio": "User",
-              "text": "<p class=\"mbr-reviews__p\">“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>"
-            },
-            {
-              "authorName": "SUFFIAN A.",
-              "authorBio": "User",
-              "text": "<p class=\"mbr-reviews__p\">“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>"
-            },
-            {
-              "authorName": "JHOLLMAN C.",
-              "authorBio": "User",
-              "text": "<p class=\"mbr-reviews__p\">“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>"
-            }
-          ],
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials1",
-          "testimonial": [
-            {
-              "text": "<p class=\"mbr-reviews__p\">“Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat. Nisl quisque aliquam tristique culpa donec libero, nec tristique dolor sed purus justo, pede dui ullamcorper, sed diam turpis elit est nec, augue venenatis ut. Metus ut vitae, ut id, felis vitae. Bibendum mollis, rutrum at dapibus accumsan et imperdiet bibendum.”</p>",
-              "authorName": "JACOBO MORALES",
-              "authorBio": "Actor"
-            },
-            {
-              "text": "<p class=\"mbr-reviews__p\">“Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat. Nisl quisque aliquam tristique culpa donec libero, nec tristique dolor sed purus justo, pede dui ullamcorper, sed diam turpis elit est nec, augue venenatis ut. Metus ut vitae, ut id, felis vitae. Bibendum mollis, rutrum at dapibus accumsan et imperdiet bibendum.”</p>",
-              "authorName": "Anibal Acevedo Vilá",
-              "authorBio": "Ex-Gobernador de Puerto Rico"
-            },
-            {
-              "text": "<p class=\"mbr-reviews__p\">“Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat. Nisl quisque aliquam tristique culpa donec libero, nec tristique dolor sed purus justo, pede dui ullamcorper, sed diam turpis elit est nec, augue venenatis ut. Metus ut vitae, ut id, felis vitae. Bibendum mollis, rutrum at dapibus accumsan et imperdiet bibendum.”</p>",
-              "authorName": "Alberto Jiménez",
-              "authorBio": "Filófoso"
-            }
-          ],
-          "_anchor": "testimonials1-7",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "count": 3,
-            "showName": true,
-            "showBio": true
-          },
-          "header": "QUE PIENSAN LOS LECTORES DE LA VITRINA ROTA",
           "_styles": {
-            ".mbr-section__header": {
-              "font-size": "14px"
+            ".mbr-section-text": {
+              "color": "#fff"
+            },
+            "P": {
+              "font-family": "'Arvo', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i"
             }
-          }
-        },
-        {
+          },
+          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-3",
+          "_name": "footer2",
+          "_anchor": "footer2-2",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#3c3c3c",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#444444"
           },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/book-265x265-40.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "bookmark-4",
-              "family": "icon54",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "text1": "<b>DIRRECCIÓN</b><br>\n1234 Street Name<br>\nCity, AA 99999",
-          "text2": "<b>\nCONTÁCTANOS</b><br>Póngase en contacto con nosotros <b>aquí</b>",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>ENLACES</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"#top\">INICIO</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\"></a></li><li><a href=\"index.html#content5-2\">HISTORIA</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"index.html#msg-box4-6\">COMPRAR LIBRO</a><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>"
+          "text": "LA VITRINA ROTA &nbsp;Copyright (c) 2016&nbsp;"
         }
       ]
     }
