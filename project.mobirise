@@ -186,7 +186,7 @@
           },
           "title": "LA VITRINA ROTA<br>",
           "text": "La historia de Puerto Rico con una mirada realista.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header5-d\" data-toolbar=\"-mbrBtnMove\">CONOCE MÁs</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features7-e\" data-toolbar=\"-mbrBtnMove\">comprar libro</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#header5-d\" data-toolbar=\"-mbrBtnMove\">CONOCE MÁs</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features7-e\" data-toolbar=\"-mbrBtnMove\">comprar</a>",
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
         },
         {
