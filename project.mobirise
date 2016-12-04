@@ -6,7 +6,7 @@
       "name": "colorm",
       "title": "ColorM",
       "styling": {
-        "primaryColor": "#2f8383",
+        "primaryColor": "#34495e",
         "buttonsColor": "#000000",
         "secondaryColor": "#9b59b6",
         "successColor": "#2ecc71",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 16,
+    "uniqCompNum": 17,
     "versionPublish": "3.9.0",
     "mcShopcart": {
       "email": "josejimenezmorales@hotmail.com"
@@ -237,7 +237,7 @@
             "showImages": true,
             "showTitles": false
           },
-          "title": "PUERTO<br> RICO",
+          "title": "<br>PUERTO<br> RICO",
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header5",
@@ -324,6 +324,72 @@
         },
         {
           "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "text-transform": "uppercase",
+              "margin-top": "40px"
+            },
+            "H1": {
+              "font-size": "60px"
+            },
+            "LABEL": {
+              "font-size": "20px",
+              "color": "#ffffff"
+            },
+            "P": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header10",
+          "_anchor": "header10-g",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/glass-101792-1920-2000x1127-63.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#2980b9",
+            "showTitle": true,
+            "showText": true,
+            "showVideo": true,
+            "showButtons": false,
+            "showArrow": false,
+            "VideoUrl": "https://youtu.be/ufY3Fbe8Iic"
+          },
+          "title": "Detalle especia para los amigo de las redes sociales",
+          "text": "Dale play para que te enteres.",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/play-button.svg"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "play-circle-o",
+              "family": "FontAwesome",
+              "active": true,
+              "link": "#modalWindow",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "text2": "<label class=\"startPreset\" for=\"modal\">Ver Video</label>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
             ".lead": {
               "color": "#9fa3a7"
             },
@@ -374,7 +440,7 @@
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/san-juan-vitrina-2000x1333-26.jpg",
             "bgColor": "#ecf0f1",
             "bgColorRadio": true,
             "bgVideo": {
@@ -382,8 +448,8 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.9,
-            "overlayColor": "#ecf0f1",
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000000",
             "showImages": true,
             "showNumber": false,
             "showTitles": true,
