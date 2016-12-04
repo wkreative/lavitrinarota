@@ -1,10 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-
 
 
 
@@ -794,7 +793,7 @@ blockquote {
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #2f8383!important;
+  color: #34495e!important;
 }
 #header11-8 H1 {
   font-size: 72px;
@@ -826,21 +825,6 @@ blockquote {
 }
 #header5-d P {
   font-size: 20px;
-}
-#header10-g .display-1 {
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 40px;
-}
-#header10-g H1 {
-  font-size: 60px;
-}
-#header10-g LABEL {
-  font-size: 20px;
-  color: #ffffff;
-}
-#header10-g P {
-  font-family: 'Raleway', sans-serif;
 }
 #features7-e .lead {
   color: #9fa3a7;
