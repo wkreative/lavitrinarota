@@ -156,6 +156,9 @@
             },
             "P": {
               "font-size": "24px"
+            },
+            ".btn": {
+              "font-size": "12px"
             }
           },
           "_anchor": "header11-8",

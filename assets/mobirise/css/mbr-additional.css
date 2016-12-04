@@ -802,6 +802,9 @@ blockquote {
 #header11-8 P {
   font-size: 24px;
 }
+#header11-8 .btn {
+  font-size: 12px;
+}
 #header5-d .elements-content {
   padding-bottom: 140px;
 }
