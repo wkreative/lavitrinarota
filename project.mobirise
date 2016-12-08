@@ -22,15 +22,17 @@
       }
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 18,
-    "versionPublish": "3.9.0",
+    "uniqCompNum": 19,
+    "versionPublish": "3.10",
     "mcShopcart": {
       "email": "josejimenezmorales@hotmail.com"
     },
     "favicon": "@PROJECT_PATH@/assets/images/book-icon-icon-search-engine-6-128x128-0.png",
     "noImageResize": "",
     "google-analytics": "",
-    "publishType": "github"
+    "publishType": "github",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -242,17 +244,17 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header5",
               "linkInNewWindow": false,
-              "name": "puzzle",
-              "family": "et-line",
+              "name": "bookmark-o",
+              "family": "FontAwesome",
               "active": true,
               "link": "",
               "size": 0,
-              "color": "@primaryColor",
+              "color": "#efefef",
               "newWindow": false
             }
           },
           "title1": "BOOST YOUR RANKING",
-          "text1": "Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat. Nisl quisque aliquam tristique culpa donec libero, nec tristique dolor sed purus justo, pede dui ullamcorper, sed diam turpis elit est nec, augue venenatis ut. Metus ut vitae, ut id, felis vitae. Bibendum mollis, rutrum at dapibus accumsan et imperdiet bibendum, suspendisse felis nulla, tincidunt vulputate ipsum sapien wisi, vel mi mollis lectus rhoncus malesuada. Id felis vivamus tellus ante ultrices, quis ligula tempora ridiculus amet tellus. Arcu per wisi eu, faucibus a tempor placeat vestibulum, quis ac, sapien in, bibendum nonummy malesuada justo in a. Elit arcu proin proin feugiat. Dolor vestibulum vel ac viverra massa non, integer faucibus, dui neque saepe viverra vitae, nunc etiam pede, vel nulla sint aliquet. Non augue, ac nec erat duis.",
+          "text1": "La vitrina rota o ¿qué carajo pasó aquí? es un texto híbrido que echa mano de lo que ofrece la memoria y el recuerdo, la autobiografía, y el ensayo historiográfico. Narrado entre la seriedad más respetable, la emocionalidad más pura y una picardía sugerente nos deja un texto que invita a la reflexión y a la calma, pero también a la acción y a la rebelión calculada. Todo en un tono tragicómico o joco-serio tan propio de la narrativa picaresca que acompaña a los puertorriqueños desde un pasado remoto. Lo que hace Silverio en este intenso y emotivo volumen es mirar hacia ese largo siglo 20 que comenzó en el 1898 y continua en el 2016, el siglo estadounidense, a la luz de una reiterada \"promesa\" incumplida. Testigo excepcional del tiempo que le ha tocado vivir. Prepárese el lector para una lectura donde \"historia\" y \"vida\" convergen en un balance envidiable. También se trata de una responsabilidad histórica y vital, bien cumplida.",
           "media2": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header5",
@@ -393,7 +395,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/libro-vitrina-600x524-56.png",
+              "src": "@PROJECT_PATH@/assets/images/la-vitrina-rota-libro-600x450-2.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -406,140 +408,8 @@
           "number1": "1",
           "subtitle1": "LA VITRINA ROTA",
           "title1": "<b>LA VITRINA ROTA</b>",
-          "caption1": "Una mirada a la historia de Puerto Rico desde el punto de vista de Silverio Pérez",
+          "caption1": "Una mirada a la historia de Puerto Rico desde el punto de vista de Silverio Pérez.",
           "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=14.99&amp;item_name=LA+VITRINA+ROTA+LIBRO&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">AñADIR CARRITO</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=14.99&amp;item_name=LA+VITRINA+ROTA+LIBRO&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">COMPRAR AHORA</a>"
-        },
-        {
-          "_styles": {
-            ".card-block p": {
-              "font-size": "15px"
-            },
-            ".mbr-section-title": {
-              "font-size": "30px",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            },
-            ".mbr-section-subtitle": {
-              "font-size": "24px",
-              "color": "#666666"
-            },
-            ".card-block P": {
-              "font-size": "12px"
-            }
-          },
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials2",
-          "_params": {
-            "autoplay": true,
-            "timeout": 5,
-            "paddingTop": 2,
-            "paddingBottom": 1,
-            "slides": [
-              {
-                "active": true,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/fb-avatar-160x139-73.jpg",
-                    "class": "img-circle",
-                    "link": "",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                },
-                "authorName": "John Smith",
-                "authorBio": "FILÓSOFO",
-                "text": "<p>“Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat.”</p>"
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/fb-avatar-160x139-57.jpg",
-                    "class": "img-circle",
-                    "link": "",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                },
-                "authorName": "Abanoub S.",
-                "authorBio": "USER",
-                "text": "<p>“Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat.”</p>"
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/fb-avatar-160x139-50.jpg",
-                    "class": "img-circle",
-                    "link": "",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                },
-                "authorName": "Suffian A.",
-                "authorBio": "USER",
-                "text": "<p>“A Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat.”</p>"
-              },
-              {
-                "active": false,
-                "media": {
-                  "image": {
-                    "src": "@PROJECT_PATH@/assets/images/fb-avatar-160x139-50.jpg",
-                    "class": "img-circle",
-                    "link": "",
-                    "height": 160,
-                    "width": 160,
-                    "active": true,
-                    "alt": "",
-                    "title": "",
-                    "linkInNewWindow": false
-                  }
-                },
-                "authorName": "Alex Higgins",
-                "authorBio": "USER",
-                "text": "<p>\"Lorem ipsum dolor sit amet, dui et pretium. Tempus aliquam pharetra, accumsan fermentum congue potenti. Enim a, in curabitur eget, duis imperdiet a justo amet, eros vestibulum massa et sed voluptatem erat.\"</p>"
-              }
-            ],
-            "showImages": true,
-            "showName": true,
-            "showBio": true,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "showTitle": false,
-            "showSubtitle": true,
-            "showBullets": true,
-            "visibleSlides": "3",
-            "controlBgLeft": "@PROJECT_PATH@/assets/images/left.png",
-            "controlBgRight": "@PROJECT_PATH@/assets/images/right.png"
-          },
-          "_anchor": "testimonials2-9",
-          "title": "QUE PIENSAN LOS LECTORES DE LA VITRINA ROTA",
-          "subtitle": "QUE PIENSAN LOS LECTORES DE LA VITRINA ROTA"
         },
         {
           "_styles": {
@@ -607,6 +477,44 @@
           "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
           "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVIAR</a>"
+        },
+        {
+          "_styles": {
+            ".btn-social": {
+              "color": "#fff",
+              "height": "60px",
+              "width": "60px",
+              "line-height": "60px",
+              "font-size": "2rem"
+            },
+            ".mbr-section-title": {
+              "color": "#fff",
+              "font-size": "36px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-i",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/vitrina-2-2000x1000-87.jpg",
+            "bgColor": "#34495e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#666666",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "Compártelo"
         },
         {
           "_styles": {

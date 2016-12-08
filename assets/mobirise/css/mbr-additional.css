@@ -855,6 +855,17 @@ blockquote {
 #form1-f .mbr-section-title {
   font-family: 'Lato', sans-serif;
 }
+#social-buttons1-i .btn-social {
+  color: #fff;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  font-size: 2rem;
+}
+#social-buttons1-i .mbr-section-title {
+  color: #fff;
+  font-size: 36px;
+}
 #footer2-2 .mbr-section-text {
   color: #fff;
 }
