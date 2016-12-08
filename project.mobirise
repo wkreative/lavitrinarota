@@ -39,7 +39,7 @@
       "settings": {
         "main": true,
         "title": "La Vitrina Rota",
-        "meta_descr": "La Vitrina Rota - Silverio Pérez",
+        "meta_descr": "La Vitrina Rota - Silverio Pérez\nLa vitrina rota o ¿qué carajo pasó aquí? es un texto híbrido que echa mano de lo que ofrece la memoria y el recuerdo, la autobiografía, y el ensayo historiográfico. Narrado entre la seriedad más respetable, la emocionalidad más pura y una picardía sugerente nos deja un texto que invita a la reflexión y a la calma, pero también a la acción y a la rebelión calculada.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -157,7 +157,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             "P": {
-              "font-size": "24px"
+              "font-size": "32px"
             },
             ".btn": {
               "font-size": "12px"
@@ -211,7 +211,7 @@
               "margin-top": "90px"
             },
             "P": {
-              "font-size": "20px"
+              "font-size": "25px"
             }
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
@@ -429,12 +429,12 @@
           "_name": "form1",
           "_anchor": "form1-f",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
-            "bgColor": "#ecf0f1",
+            "bgColor": "#bdc3c7",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
