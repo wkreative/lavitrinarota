@@ -1,10 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-
 
 
 
@@ -847,20 +845,6 @@ blockquote {
 }
 #features7-e .mbr-section-title B {
   color: #333333;
-}
-#testimonials2-9 .card-block p {
-  font-size: 15px;
-}
-#testimonials2-9 .mbr-section-title {
-  font-size: 30px;
-  font-family: 'Raleway', sans-serif;
-}
-#testimonials2-9 .mbr-section-subtitle {
-  font-size: 24px;
-  color: #666666;
-}
-#testimonials2-9 .card-block P {
-  font-size: 12px;
 }
 #form1-f .mbr-section-subtitle {
   text-transform: uppercase;
