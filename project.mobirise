@@ -22,10 +22,10 @@
       }
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 19,
+    "uniqCompNum": 20,
     "versionPublish": "3.10",
     "mcShopcart": {
-      "email": "josejimenezmorales@hotmail.com"
+      "email": "abracadabrarte2011@gmail.com"
     },
     "favicon": "@PROJECT_PATH@/assets/images/book-icon-icon-search-engine-6-128x128-0.png",
     "noImageResize": "",
@@ -166,7 +166,7 @@
           "_anchor": "header11-8",
           "_params": {
             "animText1": "HISTORIA",
-            "animText2": "REALISMO",
+            "animText2": "REFLEXIÓN",
             "animText3": "HUMOR",
             "typeSpeed": 60,
             "parallax": true,
@@ -408,8 +408,63 @@
           "number1": "1",
           "subtitle1": "LA VITRINA ROTA",
           "title1": "<b>LA VITRINA ROTA</b>",
-          "caption1": "Una mirada a la historia de Puerto Rico desde el punto de vista de Silverio Pérez.",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=14.99&amp;item_name=LA+VITRINA+ROTA+LIBRO&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">AñADIR CARRITO</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=14.99&amp;item_name=LA+VITRINA+ROTA+LIBRO&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">COMPRAR AHORA</a>"
+          "caption1": "Una mirada a la historia de Puerto Rico desde el punto de vista de Silverio Pérez.<br>",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=14.99&amp;item_name=LA+VITRINA+ROTA+LIBRO&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">AñADIR CARRITO</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=14.99&amp;item_name=LA+VITRINA+ROTA+LIBRO&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-cc-paypal mbr-iconfont mbr-iconfont-btn\"></span>COMPRAR AHORA</a> "
+        },
+        {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "font-size": "24px"
+            }
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": ""
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-j",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showCat1": true,
+            "showCat2": false,
+            "showCat3": false,
+            "showText": true,
+            "showButtons": true,
+            "googleMap": {
+              "address": "\n52 Calle del Cristo, San Juan, 00901",
+              "placeId": "EjE1MiBDYWxsZSBkZWwgQ3Jpc3RvLCBTYW4gSnVhbiwgMDA5MDEsIFB1ZXJ0byBSaWNv",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "cat1": "Presentación del Libro <br>la vitrina rota",
+          "title1": "Fecha: sábado 10 de diciembre de 2016.<br><br> Hora: 12:00MD<br><br>Lugar: Estudios Avanzados y del Caribe (ver mapa)<br>",
+          "cat2": "phone",
+          "title2": "+1 234-567-890",
+          "cat3": "email",
+          "title3": "sample@sample.us",
+          "text": "Lo presenta el Dr. Mario Cancel y el Dr. Félix Huertas, Presidente de la Asociación de Historiadores de PR. <br><br><br><b><a href=\"index.html#features7-e\">Oprime aquí para comprar el libro ahora.</a></b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"index.html#header5-d\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-facebook\"></span></a><a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://twitter.com/SILVERIOMOTIVA\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a> "
         },
         {
           "_styles": {
@@ -431,11 +486,11 @@
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/blurry-1714331-1920-2000x1379-71.jpg",
             "bgColor": "#bdc3c7",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#ecf0f1",
