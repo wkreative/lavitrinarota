@@ -846,6 +846,9 @@ blockquote {
 #features7-e .mbr-section-title B {
   color: #333333;
 }
+#features7-e .mbr-section-text B {
+  text-align: left;
+}
 #form1-f .mbr-section-subtitle {
   text-transform: uppercase;
 }
